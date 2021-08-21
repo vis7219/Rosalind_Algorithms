@@ -3,14 +3,14 @@
 Created on Fri May  7 21:54:32 2021
 
 @author: VISHAKMADHWARAJKADAM
+
+This python script contains code for getting a complementing strand of a given DNA Strand
 """
-
-
 import os
 
 os.chdir('E:/Downloads')
 
-# Opening theRosalind File
+# Opening the Rosalind File
 DNA = open('rosalind_revc (1).txt', 'r')
 DNA = DNA.read()
 
